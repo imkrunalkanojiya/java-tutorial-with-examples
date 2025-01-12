@@ -14,6 +14,8 @@
 | 10. Interfaces and Abstract Classes  | [Therory](./module_1/10_interfaces_and_abstract_classes/theory.md)  | [Exercise](./module_1/10_interfaces_and_abstract_classes/exercise.md)  |
 | 11. Packages and Access Modifiers | [Therory](./module_1/11_packages_and_access_modifiers/theory.md)  | [Exercise](./module_1/11_packages_and_access_modifiers/exercise.md)  |
 | 12. Exception Handling | [Therory](./module_1/12_exception_handling/theory.md)  | [Exercise](./module_1/12_exception_handling/exercise.md)  |
+| 13. Multithreading | [Therory](./module_1/13_multithreading/theory.md)  | [Exercise](./module_1/13_multithreading/exercise.md)  |
+| 14. File Handling | [Therory](./module_1/14_file_handling/theory.md)  | [Exercise](./module_1/14_file_handling/exercise.md)  |
 
 
 
