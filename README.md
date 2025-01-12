@@ -10,6 +10,10 @@
 | 6. Object Oriented Programming  | [Therory](./module_1/6_object_oriented_programming/theory.md)  | [Exercise](./module_1/6_object_oriented_programming/exercise.md)  |
 | 7. Constructors & Destructors  | [Therory](./module_1/7_constructors_and_destructors/theory.md)  | [Exercise](./module_1/7_constructors_and_destructors/exercise.md)  |
 | 8. Arrays & Strings  | [Therory](./module_1/8_arrays_and_strings/theory.md)  | [Exercise](./module_1/8_arrays_and_strings/exercise.md)  |
+| 9. Inheritance and Polymorphism  | [Therory](./module_1/9_inheritance_and_polymorphism/theory.md)  | [Exercise](./module_1/9_inheritance_and_polymorphism/exercise.md)  |
+| 10. Interfaces and Abstract Classes  | [Therory](./module_1/10_interfaces_and_abstract_classes/theory.md)  | [Exercise](./module_1/10_interfaces_and_abstract_classes/exercise.md)  |
+| 11. Packages and Access Modifiers | [Therory](./module_1/11_packages_and_access_modifiers/theory.md)  | [Exercise](./module_1/11_packages_and_access_modifiers/exercise.md)  |
+| 12. Exception Handling | [Therory](./module_1/12_exception_handling/theory.md)  | [Exercise](./module_1/12_exception_handling/exercise.md)  |
 
 
 
