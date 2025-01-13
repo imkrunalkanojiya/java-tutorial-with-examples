@@ -1,5 +1,7 @@
 # Java Tutorial with Practical Examples
 
+## Core Java
+
 | Topic   | Cheatsheet | Cheat Code  |
 |---|---|---|
 | 1. Introduction to java  | [Theory](./module_1/1_introduction_to_java/theory.md)  | [Exerice](./module_1/1_introduction_to_java/exercise.md)  |
