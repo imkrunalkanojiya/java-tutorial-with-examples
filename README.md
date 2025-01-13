@@ -16,7 +16,8 @@
 | 12. Exception Handling | [Therory](./module_1/12_exception_handling/theory.md)  | [Exercise](./module_1/12_exception_handling/exercise.md)  |
 | 13. Multithreading | [Therory](./module_1/13_multithreading/theory.md)  | [Exercise](./module_1/13_multithreading/exercise.md)  |
 | 14. File Handling | [Therory](./module_1/14_file_handling/theory.md)  | [Exercise](./module_1/14_file_handling/exercise.md)  |
-
+| 15. Collections Framework | [Therory](./module_1/15_collections_framework/theory.md)  | [Exercise](./module_1/15_collections_framework/exercise.md)  |
+| 16. Java Input/Output (I/O) | [Therory](./module_1/16_java_input_output/theory.md)  | [Exercise](./module_1/16_java_input_output/exercise.md)  |
 
 
 ---
