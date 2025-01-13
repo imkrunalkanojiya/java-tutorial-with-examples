@@ -26,7 +26,7 @@
 
 | Topic   | Cheatsheet | Cheat Code |
 |---|---|---|
-| Introduction to JDBC | [Theory](./module_2/1_introduction_to_jdbc/theory.md) | [Exercise](./module_2/1_introduction_to_jdbc/exercise.md) |
+| 1. Introduction to JDBC | [Theory](./module_2/1_introduction_to_jdbc/theory.md) | [Exercise](./module_2/1_introduction_to_jdbc/exercise.md) |
 
 ---
 
