@@ -28,6 +28,8 @@
 |---|---|---|
 | 1. Introduction to JDBC | [Theory](./module_2/1_introduction_to_jdbc/theory.md) | [Exercise](./module_2/1_introduction_to_jdbc/exercise.md) |
 | 2. JDBC Driver Types | [Theory](./module_2/2_jdbc_driver_types/theory.md) | [Exercise](./module_2/2_jdbc_driver_types/exercise.md) |
+| 3. Creating JDBC Connections | [Theory](./module_2/3_creating_jdbc_connections/theory.md) | [Exercise](./module_2/3_creating_jdbc_connections/exercise.md) |
+| 4. Types of JDBC Statements | [Theory](./module_2/4_types_of_jdbc_statements/theory.md) | [Exercise](./module_2/4_types_of_jdbc_statements/exercise.md) |
 
 ---
 
