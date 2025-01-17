@@ -30,8 +30,18 @@
 | 2. JDBC Driver Types | [Theory](./module_2/2_jdbc_driver_types/theory.md) | [Exercise](./module_2/2_jdbc_driver_types/exercise.md) |
 | 3. Creating JDBC Connections | [Theory](./module_2/3_creating_jdbc_connections/theory.md) | [Exercise](./module_2/3_creating_jdbc_connections/exercise.md) |
 | 4. Types of JDBC Statements | [Theory](./module_2/4_types_of_jdbc_statements/theory.md) | [Exercise](./module_2/4_types_of_jdbc_statements/exercise.md) |
+| 5. JDBC CRUD Operations | [Theory](./module_2/5_jdbc_crud_operations/theory.md) | [Exercise](./module_2/5_jdbc_crud_operations/exercise.md) |
+| 6. ResultSet Interface | [Theory](./module_2/6_resultset_interface/theory.md) | [Exercise](./module_2/6_resultset_interface/exercise.md) |
 
 ---
+
+## Mini Projects
+
+| **Project Name** | **URL** |
+|---|---|
+| 1. Monero XMR Miner | [View](https://github.com/imkrunalkanojiya/Monero-miner-gui) |
+| 2. JDBC CRUD App | [View](https://github.com/imkrunalkanojiya/jdbc-crud-example) |
+| 3. Simple Java ORM for MySQL | [View](https://github.com/imkrunalkanojiya/java-orm-with-mysql) |
 
 ## LICENCE
 
