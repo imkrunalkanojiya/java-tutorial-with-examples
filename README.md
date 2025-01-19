@@ -32,6 +32,9 @@
 | 4. Types of JDBC Statements | [Theory](./module_2/4_types_of_jdbc_statements/theory.md) | [Exercise](./module_2/4_types_of_jdbc_statements/exercise.md) |
 | 5. JDBC CRUD Operations | [Theory](./module_2/5_jdbc_crud_operations/theory.md) | [Exercise](./module_2/5_jdbc_crud_operations/exercise.md) |
 | 6. ResultSet Interface | [Theory](./module_2/6_resultset_interface/theory.md) | [Exercise](./module_2/6_resultset_interface/exercise.md) |
+| 7. Database Metadata | [Theory](./module_2/7_database_metadata/theory.md) | [Exercise](./module_2/7_database_metadata/exercise.md) |
+| 8. ResultSet Metadata | [Theory](./module_2/8_resultset_metadata/theory.md) | [Exercise](./module_2/8_resultset_metadata/exercise.md) |
+| 9. Practical SQL Query Example | N/A | [Exercise](./module_2/9_sql_query_examples/exercise.md) |
 
 ---
 
