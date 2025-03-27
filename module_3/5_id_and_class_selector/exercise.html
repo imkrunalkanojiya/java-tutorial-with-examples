@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ID and Class Selectors Demo</title>
+    <style>
+        /* Body styling for overall layout */
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+        }
+
+        /* ID Selector: Unique main header */
+        #main-header {
+            background-color: #3498db;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        /* Class Selector: Reusable card style */
+        .card {
+            background-color: white;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 15px;
+            margin-bottom: 15px;
+            transition: all 0.3s ease;
+        }
+
+        /* Multiple class applications */
+        .highlight {
+            background-color: #f1c40f;
+            font-weight: bold;
+        }
+
+        .info-card {
+            border-left: 5px solid #3498db;
+        }
+
+        .warning-card {
+            border-left: 5px solid #e74c3c;
+        }
+
+        /* Hover effect for cards */
+        .card:hover {
+            transform: scale(1.02);
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+    </style>
+</head>
+<body>
+    <!-- ID Selector: Unique main header -->
+    <header id="main-header">
+        <h1>ID and Class Selectors Demonstration</h1>
+    </header>
+
+    <!-- Class Selectors: Multiple cards with different styles -->
+    <div class="card info-card">
+        <h2>Information Card</h2>
+        <p>This is an information card styled with a class selector.</p>
+    </div>
+
+    <div class="card warning-card highlight">
+        <h2>Warning Card</h2>
+        <p>This card combines multiple class selectors for unique styling.</p>
+    </div>
+
+    <div class="card">
+        <h2>Standard Card</h2>
+        <p>A basic card without additional class modifiers.</p>
+    </div>
+
+    <!-- Demonstration of multiple classes -->
+    <div class="card highlight info-card">
+        <h2>Combined Classes</h2>
+        <p>This card demonstrates how multiple classes can be applied to create complex styles.</p>
+    </div>
+</body>
+</html>

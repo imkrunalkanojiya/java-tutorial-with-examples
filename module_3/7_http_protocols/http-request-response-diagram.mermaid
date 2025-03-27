@@ -1,0 +1,18 @@
+sequenceDiagram
+    participant Client
+    participant Network
+    participant Server
+    
+    Note over Client: Prepare HTTP Request
+    Client->>Network: Send Request
+    Note over Network: Route Request
+    Network->>Server: Deliver Request
+    
+    Note over Server: Process Request
+    Server-->>Server: Generate Response
+    
+    Server->>Network: Send Response
+    Note over Network: Route Response
+    Network->>Client: Deliver Response
+    
+    Note over Client: Process Response

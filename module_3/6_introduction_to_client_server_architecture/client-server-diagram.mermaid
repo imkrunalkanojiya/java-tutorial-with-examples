@@ -1,0 +1,25 @@
+sequenceDiagram
+    participant Client
+    participant Network
+    participant Server
+    participant Database
+
+    Note over Client: User Initiates Request
+    Client->>Network: Send HTTP Request
+    Note over Network: Routing & Protocols
+
+    Network->>Server: Forward Request
+    Note over Server: Request Processing
+    
+    alt Requires Data
+        Server->>Database: Query Data
+        Database-->>Server: Return Data
+    end
+
+    Server->>Server: Process Request
+    Note over Server: Generate Response
+    
+    Server->>Network: Send Response
+    Network->>Client: Deliver Response
+
+    Note over Client: Render/Display Response

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Servlet Lifecycle Demo</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        .container {
+            background-color: white;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .btn {
+            display: inline-block;
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 15px;
+            text-decoration: none;
+            border-radius: 4px;
+            margin: 10px 0;
+        }
+        .btn:hover {
+            background-color: #45a049;
+        }
+        .explanation {
+            background-color: #e7f3fe;
+            border-left: 6px solid #2196F3;
+            padding: 10px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Servlet Lifecycle Demonstration</h1>
+        
+        <a href="LifecycleDemo" class="btn">Invoke Servlet</a>
+        
+        <div class="explanation">
+            <h2>Servlet Lifecycle Overview</h2>
+            <ul>
+                <li><strong>Initialization (`init()`):</strong> Called once when servlet is loaded</li>
+                <li><strong>Request Handling (`service()`):</strong> Processes each incoming request</li>
+                <li><strong>Destruction (`destroy()`):</strong> Called when servlet is being unloaded</li>
+            </ul>
+            <p>Click the button above to trigger the servlet and see lifecycle in action.</p>
+        </div>
+    </div>
+</body>
+</html>

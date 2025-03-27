@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Servlet Types Demonstration</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        .container {
+            background-color: white;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .form-group {
+            margin-bottom: 15px;
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+        input[type="text"] {
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+        .btn {
+            display: inline-block;
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 15px;
+            text-decoration: none;
+            border-radius: 4px;
+            margin-right: 10px;
+        }
+        .btn:hover {
+            background-color: #45a049;
+        }
+        .explanation {
+            background-color: #e7f3fe;
+            border-left: 6px solid #2196F3;
+            padding: 10px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Servlet Types Demonstration</h1>
+
+        <!-- Generic Servlet Form -->
+        <div class="form-group">
+            <h2>Generic Servlet Demo</h2>
+            <a href="GenericServletDemo" class="btn">View Generic Servlet</a>
+            <p>Demonstrates a protocol-independent servlet with generic request handling.</p>
+        </div>
+
+        <!-- HTTP Servlet Form -->
+        <div class="form-group">
+            <h2>HTTP Servlet Demo</h2>
+            <form action="HttpServletDemo" method="get">
+                <label for="name">Enter Your Name:</label>
+                <input type="text" id="name" name="name" placeholder="Optional">
+                <input type="submit" value="Submit" class="btn">
+            </form>
+            <p>Shows HTTP-specific servlet with method-based handling and session tracking.</p>
+        </div>
+
+        <!-- Explanation Section -->
+        <div class="explanation">
+            <h3>Servlet Types Comparison</h3>
+            <ul>
+                <li><strong>Generic Servlet:</strong> Protocol-independent, more abstract</li>
+                <li><strong>HTTP Servlet:</strong> Web-specific, method-based handling</li>
+                <li>HTTP Servlet provides more web-oriented features</li>
+                <li>Generic Servlet is more flexible but less commonly used</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>

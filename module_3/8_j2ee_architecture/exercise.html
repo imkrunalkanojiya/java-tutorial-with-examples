@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>J2EE Architecture Visualization</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            background-color: #f4f4f4;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        .architecture-container {
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            padding: 30px;
+            max-width: 800px;
+            width: 100%;
+            text-align: center;
+        }
+
+        .layer {
+            border: 2px solid #3498db;
+            border-radius: 5px;
+            margin: 10px 0;
+            padding: 15px;
+            transition: all 0.3s ease;
+        }
+
+        .layer:hover {
+            transform: scale(1.05);
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+
+        .layer h3 {
+            margin-top: 0;
+            color: #2c3e50;
+        }
+
+        .arrow {
+            font-size: 24px;
+            color: #7f8c8d;
+            margin: 10px 0;
+        }
+
+        @keyframes flow {
+            0% { opacity: 0.6; }
+            50% { opacity: 1; }
+            100% { opacity: 0.6; }
+        }
+
+        .flow-indicator {
+            animation: flow 1.5s infinite;
+        }
+    </style>
+</head>
+<body>
+    <div class="architecture-container">
+        <h2>J2EE Multi-Tier Architecture</h2>
+        
+        <div class="layer">
+            <h3>Client Layer</h3>
+            <p>Web Browsers, Mobile Apps, Rich Clients</p>
+            <p>Responsible for user interaction and initial request generation</p>
+        </div>
+        
+        <div class="arrow flow-indicator">↓</div>
+        
+        <div class="layer">
+            <h3>Web/Presentation Tier</h3>
+            <p>Servlets, JSP, JSF</p>
+            <p>Handles request processing, UI rendering, input validation</p>
+        </div>
+        
+        <div class="arrow flow-indicator">↓</div>
+        
+        <div class="layer">
+            <h3>Business Logic Tier</h3>
+            <p>EJB, Service Classes</p>
+            <p>Implements business rules, transaction management</p>
+        </div>
+        
+        <div class="arrow flow-indicator">↓</div>
+        
+        <div class="layer">
+            <h3>Data Access Tier</h3>
+            <p>JDBC, JPA, Hibernate</p>
+            <p>Database interactions, data persistence</p>
+        </div>
+        
+        <div class="arrow flow-indicator">↓</div>
+        
+        <div class="layer">
+            <h3>Database Server</h3>
+            <p>MySQL, Oracle, PostgreSQL</p>
+            <p>Stores and manages application data</p>
+        </div>
+    </div>
+</body>
+</html>

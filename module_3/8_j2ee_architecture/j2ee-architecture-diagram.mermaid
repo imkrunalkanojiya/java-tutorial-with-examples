@@ -1,0 +1,25 @@
+flowchart TB
+    %% Client Layer
+    Client[Client Layer\nWeb Browser/Mobile App]
+    
+    %% Presentation Tier
+    WebTier[Web/Presentation Tier\nServlets, JSP, JSF]
+    
+    %% Business Logic Tier
+    BusinessTier[Business Logic Tier\nEJB, Service Classes]
+    
+    %% Data Access Tier
+    DataTier[Data Access Tier\nJDBC, JPA, Hibernate]
+    
+    %% Database
+    Database[Database Server\nMySQL, Oracle, PostgreSQL]
+    
+    %% Connections between layers
+    Client --> WebTier
+    WebTier --> BusinessTier
+    BusinessTier --> DataTier
+    DataTier --> Database
+    
+    %% Annotations
+    classDef layer fill:#f9f,stroke:#333,stroke-width:2px;
+    class Client,WebTier,BusinessTier,DataTier,Database layer;

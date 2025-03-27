@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS Types Demonstration</title>
+    
+    <!-- Internal CSS -->
+    <style>
+        /* Internal CSS targets all paragraphs */
+        p {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+        }
+
+        /* Internal CSS for a specific class */
+        .internal-styled {
+            color: green;
+            background-color: #f0f0f0;
+            padding: 10px;
+        }
+    </style>
+
+    <!-- External CSS Link (Simulated) -->
+    <link rel="stylesheet" href="external-styles.css">
+</head>
+<body>
+    <h1>CSS Styling Types Demonstration</h1>
+
+    <!-- Inline CSS -->
+    <p style="color: red; font-weight: bold;">
+        This paragraph uses inline CSS (highest priority).
+    </p>
+
+    <!-- Internal CSS -->
+    <p class="internal-styled">
+        This paragraph is styled with internal CSS from the &lt;style&gt; tag.
+    </p>
+
+    <!-- External CSS (would typically link to an external file) -->
+    <p class="external-styled">
+        This paragraph would be styled by an external CSS file.
+    </p>
+
+    <!-- Demonstration of Cascading and Specificity -->
+    <div style="color: blue;">
+        <p>This text inherits the blue color from its parent div.</p>
+    </div>
+</body>
+</html>
