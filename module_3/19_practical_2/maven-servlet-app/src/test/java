@@ -1,0 +1,20 @@
+maven-servlet-app
+├── src
+│   ├── main
+│   │   ├── java
+│   │   │   └── com
+│   │   │       └── example
+│   │   │           ├── servlets
+│   │   │           │   ├── FirstServlet.java
+│   │   │           │   └── SecondServlet.java
+│   │   │           └── util
+│   │   │               └── Constants.java
+│   │   ├── resources
+│   │   └── webapp
+│   │       ├── WEB-INF
+│   │       │   └── web.xml
+│   │       └── index.jsp
+│   └── test
+│       └── java
+├── pom.xml
+└── README.md
